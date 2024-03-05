@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }  
+  
+  body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+  }
+
+  header {
+    width: 100%;
+    height: 100vh;
+    background: url(./image/bg.JPG) no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: sticky;
+  }
+  
+  #logo {
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  #logo a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  #logo:hover {
+    cursor: pointer;
+  }
+  
+  .menu {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  nav {
+    position: fixed;
+    width: 100%;
+    background-color: #1D24CA;
+  }
+  
+  nav ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: black;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transform: 1s;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #00fff7;
+    transition: 0.5s;
+  }
+  
+  #members {
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  
+  #section {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    height: 270px;
+    width: 270px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    margin: 10px;
+  }
+  
+  .card img {
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #galeri h2 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .foto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  
+  .foto {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 270px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    margin: 10px;
+  }
+  
+  .foto img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .foto p {
+    text-align: center;
+  }
+
+  .foto h3{
+    text-align: center;
+  }
+
+  section.about {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  section.contact h2{
+    text-align: center;
+  }
+  
+  .about .company-info {
+    margin-top: 30px;
+  }
+  
+  .about h3 {
+    margin: 30px 0 10px;
+  }
+  
+  .about .team {
+    text-align: left;
+    width: 100%;
+  }
+  
+  .about .team ul {
+    padding-left: 20px;
+  }
+  
+  section .cards .card {
+    background: #fff;
+    padding: 40px 15px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    margin-bottom: 40px;
+    height: 250px;
+    width: calc(100% / 5 - 50px);
+    text-align: center;
+  }
+  
+  section .cards .card a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  section .cards .card a:hover {
+    color: #3edde9;
+  }
+  
+  .galeri .card img {
+    width: 100%;
+    padding-bottom: 10px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 7px;
+  }
+  
+  .cards .card p {
+    padding: 0 15px;
+    margin-top: 5px;
+  }
+  
+  .about .row {
+    padding: 0 10px;
+  }
+  
+  .contact .row {
+    margin: 60px 0 90px;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .contact .row .col {
+    padding: 0 10px;
+    width: calc(100% / 2 - 50px);
+  }
+  
+  .contact form input {
+    height: 45px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #bfbfbf;
+  }
+  
+  .contact form textarea {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    height: 150px;
+    outline: none;
+    resize: vertical;
+    border: 1px solid #bfbfbf;
+  }
+  
+  .contact form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #333;
+    transition: 0.2s ease;
+  }
+  
+  .contact form button:hover {
+    background: #525252;
+  }
+
+  .kontak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+  }
+  
+  .kontak ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .kontak ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .kontak ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .kontak ul li a:hover {
+    color: #000;
+  }
+  
+  .kontak ul li i {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .kontak ul li img{
+    height: 300px;
+    width: 300px;
+  }
+
+  footer {
+    background-color: #1D24CA;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
