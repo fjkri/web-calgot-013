@@ -96,10 +96,10 @@
     gap: 20px;
   }
   
-  #section {
+  /* #section {
     text-align: center;
     padding-top: 50px;
-  }
+  } */
   
   .card {
     background-color: #f0f0f0;
@@ -166,62 +166,8 @@
   section.contact h2{
     text-align: center;
   }
-  
-  .about .company-info {
-    margin-top: 30px;
-  }
-  
-  .about h3 {
-    margin: 30px 0 10px;
-  }
-  
-  .about .team {
-    text-align: left;
-    width: 100%;
-  }
-  
-  .about .team ul {
-    padding-left: 20px;
-  }
-  
-  section .cards .card {
-    background: #fff;
-    padding: 40px 15px;
-    list-style: none;
-    border-radius: 5px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
-    margin-bottom: 40px;
-    height: 250px;
-    width: calc(100% / 5 - 50px);
-    text-align: center;
-  }
-  
-  section .cards .card a {
-    color: #000;
-    text-decoration: none;
-  }
-  
-  section .cards .card a:hover {
-    color: #3edde9;
-  }
-  
-  .galeri .card img {
-    width: 100%;
-    padding-bottom: 10px;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    border-radius: 7px;
-  }
-  
-  .cards .card p {
-    padding: 0 15px;
-    margin-top: 5px;
-  }
-  
-  .about .row {
-    padding: 0 10px;
-  }
-  
+
+
   .contact .row {
     margin: 60px 0 90px;
     display: flex;
